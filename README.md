@@ -1,11 +1,11 @@
-# Maze_Generator
+# Maze Generator
 Generates a 2-D maze using a recursive backtracking algorithm.
 
 ![example](Reference/example.png)
 
 ## Prerequisites
 
-Before you can run this program, ensure that yoou have the following software installed and functional:
+Before you can run this program, ensure that you have the following software installed and functional:
 * Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7, Windows 8, Windows 8.1, or Windows 10 OS.
 * C++11 compiler.
 
@@ -19,10 +19,13 @@ Before you can run this program, ensure that yoou have the following software in
 
 Bellow is the a list of each program file and a brief explanation of its role:
 
-* [__Maze_Generator.cpp:__](Maze_Generator.cpp) This file defines the entry point for the application.
-* [__Maze.cpp:__](Maze.cpp) Implements the `Maze` class.
-* [__Cell.cpp:__](Cell.cpp) Implements the `Cell` struct.
-* [__stdafx.cpp:__](stdafx.cpp) Implements Windows precompiled headers.
+* [__Maze_Generator.cpp:__](Maze_Generator.cpp) Defines the entry point for the application.
+* [__Maze.h:__](Maze.h) Contains declarations for the `Maze` class.
+* [__Maze.cpp:__](Maze.cpp) Contains definitions for the `Maze` class.
+* [__Cell.h:__](Cell.h) Contains declarations for `Cell` struct.
+* [__Cell.cpp:__](Cell.cpp) Contains definitions for `Cell` struct.
+* [__stdafx.h:__](stdafx.h) Used to include Windows precompiled headers.
+* [__stdafx.cpp:__](stdafx.cpp) Includes [__stdafx.h:__](stdafx.h).
 
 ## Authors
 
