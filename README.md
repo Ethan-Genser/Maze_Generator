@@ -6,8 +6,8 @@ Generates a 2-D maze using a recursive backtracking algorithm.
 ## Prerequisites
 
 Before you can run this program, ensure that you have the following software installed and functional:
-* Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7, Windows 8, Windows 8.1, or Windows 10 OS.
-* C++11 compiler.
+* One of the following opperating systems: Windows 7, Windows 8, Windows 8.1, or Windows 10
+* C++11 compiler
 
 ## Running
 1. Download the source code from this repository.
